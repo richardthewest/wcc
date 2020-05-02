@@ -134,7 +134,7 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-ol, dt, dd {
+ol, dt, dd, form, label {
 	background-color: #dddddd;
 	margin: 0px;
 	padding: 10px;
@@ -152,6 +152,10 @@ iframe {
   max-height: 100%;
 }
 
+form input, form label, form select {
+  padding: 10px;
+  margin: 10px;
+}
 
 
 
