@@ -24,7 +24,11 @@
 		</header>
 		<h3>Contact Us</h3>
 		<h4>Submit you information below, and we will reply you as soon as possible.</h4><br>
-		<form action="/contact_details.php" method="post" target="_self" autocomplete="on">
+
+		<!--
+		Make a class to sepearte out the whole page of grey, into more appealing boxes.
+		-->
+		<form id="contact-form" action="/contact_details.php" method="post" target="_self" autocomplete="on">
 			<label for="name">Name:</label><br>
 				<input type="text" id="name" name="name" placeholder="Name" size="30" required><br>
 			<label for="email">Email Address</label><br>
@@ -45,6 +49,7 @@
 				<br>
 			<input type="Submit" name="Submit" id="Submit"><br>
 		</form>
+		<br>
 			<dt>Alternativly Feel Free to:</dt>
 			<dt>Call</dt>
 				<dd>
