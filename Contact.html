@@ -23,47 +23,51 @@
 			</nav>
 		</header>
 		<h3>Contact Us</h3>
-		<h4>Submit you information below, and we will reply you as soon as possible.</h4><br>
 
 		<!--
 		Make a class to sepearte out the whole page of grey, into more appealing boxes.
 		-->
+		<div class="contactInfo">
+			<div class="contactFormHeader">
+				Submit you information below, and we will reply you as soon as possible.
+			</div>
+			<div class="contactFormDivider"></div>
 		<form id="contact-form" action="/contact_details.php" method="post" target="_self" autocomplete="on">
-			<label for="name">Name:</label><br>
-				<input type="text" id="name" name="name" placeholder="Name" size="30" required><br>
-			<label for="email">Email Address</label><br>
-				<input type="email" id="email" name="email" placeholder="Email Address" size="30" required><br>
-			<label for="tel">Telephone Number:</label><br>
-				<input type="tel" id="phone" name="phone" placeholder="Telephone No." size="30"><br>
-			<label>Select Your State / Teritory</label><br>
-				<select id="state" name="state">
-					<option value="" selected disabled>SELECT</option>
-					<option value="queensland">QLD</option>
-					<option value="new south wales">NSW</option>
-					<option value="victoria">VIC</option>
-					<option value="south australia">SA</option>
-					<option value="western australia">WA</option>
-					<option value="northern teritory">NT</option>
-					<option value="australian capitol teritory">ACT</option>
-				</select><br>
-				<br>
+			<input type="text" id="name" name="name" placeholder="Name" size="30" required><br>
+			<input type="email" id="email" name="email" placeholder="Email Address" size="30" required><br>
+			<input type="tel" id="phone" name="phone" placeholder="Telephone No." size="30"><br>
+			<select id="state" name="state">
+				<option value="" selected disabled>SELECT</option>
+				<option value="queensland">QLD</option>
+				<option value="new south wales">NSW</option>
+				<option value="victoria">VIC</option>
+				<option value="south australia">SA</option>
+				<option value="western australia">WA</option>
+				<option value="northern teritory">NT</option>
+				<option value="australian capitol teritory">ACT</option>
+			</select><br>
+			<br>
 			<input type="Submit" name="Submit" id="Submit"><br>
 		</form>
+		<div class="contactFormDivider"></div>
 		<br>
 			<dt>Alternativly Feel Free to:</dt>
 			<dt>Call</dt>
-				<dd>
-					<a href="tel:+61424850928">+61 424 850 928</a>
-				</dd>
+			<dd>
+				<a href="tel:+61424850928">+61 424 850 928</a>
+			</dd>
+			<div class="contactFormDivider"></div>
 			<dt>Email</dt>
-				<dd>
-					<a href="mailto:someone@example.com?Subject=Email%Query" target="_top">Send Mail</a>				
-				</dd>
+			<dd>
+				<a href="mailto:someone@example.com?Subject=Email%Query" target="_top">Send Mail</a>				
+			</dd>
+			<div class="contactFormDivider"></div>
 			<dt>Visit Us</dt>
-				<dd>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d453477.6536737166!2d152.99319644999994!3d-27.382142900000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91579aac93d233%3A0x402a35af3deaf40!2sBrisbane%20QLD!5e0!3m2!1sen!2sau!4v1585379333639!5m2!1sen!2sau" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-				</dd>
-				<br>
+			<dd>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d453477.6536737166!2d152.99319644999994!3d-27.382142900000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91579aac93d233%3A0x402a35af3deaf40!2sBrisbane%20QLD!5e0!3m2!1sen!2sau!4v1585379333639!5m2!1sen!2sau" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</dd>
+		</div>
+		<br>
 	</body>
 
 

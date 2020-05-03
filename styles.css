@@ -152,10 +152,55 @@ iframe {
   max-height: 100%;
 }
 
+
+
+/* CONTACT FORM STYLES */
+
 form input, form label, form select {
   padding: 10px;
   margin: 10px;
 }
+
+form input {
+  border-radius: 5px;
+  border-style: none;
+}
+
+.contactInfo {
+  position: relative;
+  width: 50%;
+  left: 25%;
+  background-color: #dddddd;
+  color: dimgrey;
+}
+
+.contactFormHeader {
+  position: relative;
+  width: 80%;
+  padding: 20px;
+  margin: 10px;
+}
+
+.contactFormDivider {
+  position: relative;
+  width: 90%;
+  left: 5%;
+  height: 5px;
+  background-color: white;
+}
+
+#Submit {
+  width: 80px;
+  background-color: white;
+  border-style: solid;
+  border-color: darkgrey;
+  border-width: 1px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+
 
 
 
