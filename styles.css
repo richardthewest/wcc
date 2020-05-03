@@ -168,17 +168,18 @@ form input {
 
 .contactInfo {
   position: relative;
-  width: 50%;
-  left: 25%;
+  width: 65%;
+  left: 17.5%;
   background-color: #dddddd;
   color: dimgrey;
 }
 
 .contactFormHeader {
   position: relative;
-  width: 80%;
   padding: 20px;
+  padding-bottom: 10px;
   margin: 10px;
+  text-align: center;
 }
 
 .contactFormDivider {
@@ -307,14 +308,24 @@ form input {
 }
 
 @media (max-width: 550px) {
-  .youtubeVideoContainer{
-  }
 
   .youtubeVideoContainer iframe {
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
+  }
+
+  .contactInfo {
+    width: 100%;
+    left: 0;
+  }
+}
+
+@media (max-width: 660px){
+  .contactInfo {
+    width: 70%;
+    left: 15%;
   }
 }
 
