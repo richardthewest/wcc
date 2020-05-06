@@ -159,17 +159,19 @@ iframe {
 form input, form label, form select {
   padding: 10px;
   margin: 10px;
+  font-size: 18px;
 }
 
 form input {
   border-radius: 5px;
   border-style: none;
+  width: 220px;
 }
 
 .contactInfo {
   position: relative;
-  width: 65%;
-  left: 17.5%;
+  width: 100%;
+  left: 0;
   background-color: #dddddd;
   color: dimgrey;
 }
@@ -200,12 +202,24 @@ form input {
   text-align: center;
 }
 
+@media (min-width: 500px) {
 
+  .contactInfo {
+    width: 90%;
+    left: 5%;
+    font-size: 20px;
+  }
+
+  form {
+    
+  }
+}
 
 
 
 
 /* PRODUCT SELECTIONS */
+
 .productHeader {
   background-color: grey;
   font-size: 20px;
@@ -316,10 +330,6 @@ form input {
     width: 100%;
   }
 
-  .contactInfo {
-    width: 90%;
-    left: 5%;
-  }
 }
 
 
